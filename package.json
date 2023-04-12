@@ -1,0 +1,23 @@
+{
+  "name": "starterpack-jpfeff",
+  "version": "1.0.0",
+  "description": "*description*",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dartmouth-cs52-23s/starterpack-jpfeff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dartmouth-cs52-23s/starterpack-jpfeff/issues"
+  },
+  "homepage": "https://github.com/dartmouth-cs52-23s/starterpack-jpfeff#readme",
+  "devDependencies": {
+    "vite": "^4.2.1"
+  }
+}
