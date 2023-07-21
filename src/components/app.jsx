@@ -1,24 +1,17 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Nav from './nav';
-import Welcome from './welcome';
-import About from './about';
-import Test from './test';
-import FallBack from './fallback';
+import Header from './header/header';
+import Introduction from './introduction/Introduction';
+import Image from './image/Image';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div>
-        <Nav />
-        <Routes>
-          <Route path="/" element={<Welcome />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/test/:id" element={<Test />} />
-          <Route path="*" element={<FallBack />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
+    <div>
+      <Header />
+      <section id="about" className="section">
+        <Introduction />
+        <Image />
+      </section>
+    </div>
   );
 }
 

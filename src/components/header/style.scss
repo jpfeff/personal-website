@@ -1,0 +1,18 @@
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.logo {
+  width: 1.5rem;
+}

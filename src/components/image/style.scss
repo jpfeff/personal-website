@@ -1,0 +1,18 @@
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #F3B9BA;
+  position: relative;
+  flex-grow: 1;
+  min-width: 20rem;
+  height: 100%;
+}
+
+.me {
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
