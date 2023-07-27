@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
-    "dev": "vite",
+    "dev": "vite && postcss src/style.scss",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -21,20 +21,20 @@
   },
   "homepage": "https://github.com/dartmouth-cs52-23s/starterpack-jpfeff#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.14",
     "eslint": "^8.38.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "postcss": "^8.4.27",
     "sass": "^1.62.0",
+    "tailwindcss": "^3.3.3",
     "vite": "^4.2.1",
     "vite-plugin-eslint": "^1.8.1"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.26",
-    "tailwindcss": "^3.3.3",
     "@reduxjs/toolkit": "^1.9.5",
     "@vitejs/plugin-react": "^3.1.0",
     "axios": "^1.3.5",
@@ -44,6 +44,7 @@
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
     "react-router": "^6.10.0",
-    "react-router-dom": "^6.10.0"
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "^5.0.1"
   }
 }
