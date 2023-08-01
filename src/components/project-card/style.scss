@@ -1,0 +1,75 @@
+.project-card-wrapper {
+  flex-grow: 1;
+  flex-basis: 30%;
+  aspect-ratio: 1/1 !important;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  max-width: calc(50% - 4.5rem);
+  background-size: 100%;
+  background-position: center;
+  transition: background-size 0.5s ease-in-out !important;
+}
+
+.project-card-wrapper:hover {
+  background-size: 105%;
+  transition: background-size 0.5s ease-in-out;
+}
+
+.project-card-type {
+  color: rgb(249,249,249);
+  padding: 0.3rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.project-card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1rem;
+}
+
+.project-card-description {
+  transition: opacity 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 1325px) {
+  .project-card-header {
+    font-size: calc(max(1.2vw, 0.9rem));
+  }
+}
+
+@media screen and (max-width: 960px) and (min-width: 801px) {
+  .project-card-description {
+    opacity: 0%;
+    transition: opacity 0.2s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 496px) {
+  .project-card-description {
+    opacity: 0%;
+    transition: opacity 0.2s ease-in-out;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .project-card-wrapper {
+    max-width: none !important;
+    max-height: none !important;
+  }
+  .project-card-header {
+    font-size: 1rem;
+  }
+}
