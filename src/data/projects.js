@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     title: 'Flashback',
-    type: 'Mobile Development',
+    type: 'Mobile Dev',
     description: 'Photo capturing and sharing app',
     image: 'https://i.imgur.com/iQhtsrN.png',
     // image: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-xXKE4cIfy5GRlJ-HlaeHrj2nkOeDG-4ECxgfU-c-6dtfnTaTQAW34WUQXwsz-dtO-Y68Aa7yV3Ug_XrmDzhlOxT_HdcA=w1920-h969',
@@ -13,7 +13,7 @@ const projects = [
   {
     id: 2,
     title: 'Brightfin',
-    type: 'Mobile Development',
+    type: 'Mobile Dev',
     description: 'Financial education app',
     image: 'https://i.imgur.com/KZJGjZ4.png',
     // image: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-wALxEBUd-irjC9sXblUMaXo0XJDaTmh054HjbHr6d8YYHXF8I6Y52TfcW52aMIdjT1JJExxpWmx4g1uQUtdBHQ-Mwc=w1920-h969',
@@ -24,16 +24,16 @@ const projects = [
   {
     id: 3,
     title: 'Tune Tracker',
-    type: 'Web Development & UI/UX Design',
+    type: 'Web Dev & UI/UX',
     description: 'Personal listening history',
-    image: 'https://i.imgur.com/9cvSX3y.png',
+    image: 'https://i.imgur.com/bR6g2Tv.png',
     typeColor: '#4D6D9E',
     whiteText: true,
   },
   {
     id: 4,
-    title: 'ConferenceCup USA',
-    type: 'Web Development',
+    title: 'ConferenceCup',
+    type: 'Web Dev',
     description: 'Ivy  sports leaderboard',
     image: 'https://i.imgur.com/VMTA06A.png',
     borderColor: '#0F0E0E',
@@ -43,7 +43,7 @@ const projects = [
   {
     id: 5,
     title: 'Greenbox',
-    type: 'UI/UX Design',
+    type: 'UI/UX',
     description: 'Student storage portal & dashboard designs',
     image: 'https://i.imgur.com/fWWuaKJ.png',
     borderColor: '#3F705B',
@@ -53,7 +53,7 @@ const projects = [
   {
     id: 6,
     title: 'Notes',
-    type: 'Web Development & UI/UX Design',
+    type: 'Web Dev & UI/UX',
     description: 'Collaborative sticky notes',
     image: 'https://i.imgur.com/OGKq1hn.png',
     borderColor: '#C2C5D2',
