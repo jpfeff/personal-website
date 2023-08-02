@@ -50,6 +50,16 @@ const projects = [
     typeColor: '#1A4D37',
     whiteText: true,
   },
+  {
+    id: 6,
+    title: 'Notes',
+    type: 'Web Development & UI/UX Design',
+    description: 'Collaborative sticky notes',
+    image: 'https://i.imgur.com/OGKq1hn.png',
+    borderColor: '#C2C5D2',
+    typeColor: '#6658F9',
+    whiteText: false,
+  },
 ];
 
 export default projects;
