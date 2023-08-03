@@ -1,8 +1,17 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import './style.scss';
+import Flashback from '../../img/projects/Flashback.png';
+import Greenbox from '../../img/projects/Greenbox.png';
+import Brightfin from '../../img/projects/Brightfin.png';
+import CCUSA from '../../img/projects/CCUSA.png';
+import TuneTracker from '../../img/projects/TuneTracker.png';
+import Notes from '../../img/projects/Notes.png';
 
 function ProjectCard(props) {
   const { project } = props;
+
+  console.log(project.image);
 
   const cardStyle = {
     backgroundImage: `url(${project.image})`,
