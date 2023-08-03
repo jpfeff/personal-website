@@ -10,11 +10,17 @@ import Notes from '../../img/projects/Notes.png';
 
 function ProjectCard(props) {
   const { project } = props;
-
-  console.log(project.image);
+  const images = [
+    Flashback,
+    Brightfin,
+    TuneTracker,
+    CCUSA,
+    Greenbox,
+    Notes,
+  ];
 
   const cardStyle = {
-    backgroundImage: `url(${project.image})`,
+    backgroundImage: `url(${images[project.id - 1]}`,
     border: `2px solid ${project.borderColor}`,
   };
 
