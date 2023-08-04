@@ -5,7 +5,6 @@ import Image from './image/Image';
 import projects from '../data/projects';
 import ProjectCard from './project-card/ProjectCard';
 import '../style.scss';
-import '../index.css';
 
 function App() {
   return (

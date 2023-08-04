@@ -20,7 +20,7 @@
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 812px) {
   .intro-text, .intro-subtext{
     margin-bottom: 1.5rem !important;
   }
@@ -120,15 +120,19 @@
 
 .github:hover {
   background-color: #6e5494;
-  border: 2px solid #6e5494;
+  border: 2px solid #6e5494 !important;
 }
 
 .resume:hover {
   background-color: $pink;
-  border: 2px solid $pink;
+  border: 2px solid $pink !important;
 }
 
 .linkedin:hover {
   background-color: #0077b5;
-  border: 2px solid #0077b5;
+  border: 2px solid #0077b5 !important;
+}
+
+.logo-link {
+  color: #EEEEEE !important;
 }

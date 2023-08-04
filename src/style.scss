@@ -35,9 +35,10 @@ body {
   height: 20rem;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
+a, a:visited, a:hover, a:active {
+  all: unset !important;
+  text-decoration: none !important;
+  color: inherit !important;
 }
 
 button {
@@ -65,7 +66,7 @@ h1,h2,h3,h4,h5,h6,p{
   margin: 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 812px) {
   body, html {
     margin-left: 1rem;
     margin-right: 1rem;
