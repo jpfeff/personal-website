@@ -27,8 +27,8 @@ function Header(props) {
     <div className="header-wrapper">
       <img src={Logo} alt="logo" className="logo" />
       <div className="links">
-        <a href="#about" onClick={handleScrollToAbout}>About</a>
-        <a href="#projects" onClick={handleScrollToProjects}>Projects</a>
+        <a href="#about" onClick={handleScrollToAbout} className="link">About</a>
+        <a href="#projects" onClick={handleScrollToProjects} className="link">Projects</a>
       </div>
     </div>
   );
